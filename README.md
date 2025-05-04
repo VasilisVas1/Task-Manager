@@ -16,7 +16,7 @@
 4. Hit **Restore**.
 
 
-## Table of the database
+## Table for the data storage
 CREATE TABLE tasks (
     id SERIAL PRIMARY KEY,
     title TEXT NOT NULL,
