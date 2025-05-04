@@ -14,3 +14,14 @@
 2. Right-click the new database → **Restore**.
 3. Select your backup file.
 4. Hit **Restore**.
+
+
+## Table of the database
+CREATE TABLE tasks (
+    id SERIAL PRIMARY KEY,
+    title TEXT NOT NULL,
+    description TEXT,
+    priority INTEGER NOT NULL,
+    deadline DATE,
+    status TEXT DEFAULT 'Pending'
+);
